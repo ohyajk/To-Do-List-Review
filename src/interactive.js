@@ -13,7 +13,7 @@ cbs.forEach((cb, index) => {
   });
 });
 
-const clearAll = document.querySelector('#clearAll');
+const clearAll = document.getElementById('clearAll');
 
 tlGet.forEach(() => {
   clearAll.addEventListener('click', () => {
